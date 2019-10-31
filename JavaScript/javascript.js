@@ -106,3 +106,9 @@ function timeConversion(s) {
   console.log(aCount);
   console.log(oCount);
 }
+
+const getSum => (a, b) {
+  let min = Math.min(a, b);
+  let max = Math.max(a, b);
+  return (max - min + 1) * (max + min)/2; //# of numbers including both of them * average
+}
